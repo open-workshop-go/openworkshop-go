@@ -1,3 +1,4 @@
 #! /usr/bin/env bash 
 
-./gradlew :web:war -x :core:jar -x :web:classes
+gradle :web:war -x :core:jar -x :web:classes
+# ./gradlew :web:war -x :core:jar -x :web:classes

@@ -1,3 +1,4 @@
 #! /usr/bin/env bash 
 
-./gradlew :web:test -x :core:jar -x :web:classes -x :web:testClasses
+gradle :web:test -x :core:jar -x :web:classes -x :web:testClasses
+# ./gradlew :web:test -x :core:jar -x :web:classes -x :web:testClasses
