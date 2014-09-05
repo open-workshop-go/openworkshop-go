@@ -1,4 +1,3 @@
 #! /usr/bin/env bash 
 
-gradle :core:integrationTest -x :core:classes -x :core:testClasses -x :core:integrationTestClasses
-# ./gradlew :core:integrationTest -x :core:classes -x :core:testClasses -x :core:integrationTestClasses
+./gradlew :core:integrationTest -x :core:classes -x :core:testClasses -x :core:integrationTestClasses
